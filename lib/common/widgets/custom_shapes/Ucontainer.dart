@@ -11,10 +11,12 @@ class UContainer extends StatelessWidget {
     this.backgroudColor = UColors.white,
     this.padding,
     this.margin,
+    this.child,
   });
   final double width, height, radius;
   final Color backgroudColor;
   final EdgeInsetsGeometry? padding, margin;
+  final Widget? child;
 
   @override
   Widget build(BuildContext context) {
@@ -25,6 +27,7 @@ class UContainer extends StatelessWidget {
         borderRadius: BorderRadius.circular(radius),
         color: backgroudColor,
       ),
+      child: child,
     );
   }
 }

@@ -1,6 +1,4 @@
-
-
-class USizes{
+class USizes {
 // Padding and margin sizes
   static const double xs = 4.0; // extra small
   static const double sm = 8.0; // small
