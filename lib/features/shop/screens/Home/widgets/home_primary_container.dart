@@ -1,4 +1,4 @@
-import 'package:e_commerce/common/widgets/custom_shapes/Ucontainer.dart';
+import 'package:e_commerce/common/widgets/custom_shapes/rounded_container.dart';
 import 'package:e_commerce/common/widgets/custom_shapes/rounded_edges_container.dart';
 import 'package:e_commerce/utils/constants/colors.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
@@ -12,7 +12,7 @@ class Uprimary_header extends StatelessWidget {
   final Widget child;
   @override
   Widget build(BuildContext context) {
-    return URoundedEdges(
+    return URoundedEdgesContainer(
       child: Container(
         height: USizes.homePrimaryHeaderHeight,
         color: UColors.primary,
@@ -20,14 +20,14 @@ class Uprimary_header extends StatelessWidget {
           children: [
             Positioned(
               top: -150,
-              right: -250,
+              right: -160,
 
               //Container
 
-              child: UContainer(
+              child: URoundedContainer(
                 height: USizes.homePrimaryHeaderHeight,
                 width: USizes.homePrimaryHeaderHeight,
-                backgroudColor: UColors.white.withValues(alpha: 0.1),
+                backgroundColor: UColors.white.withValues(alpha: 0.1),
               ),
             ),
             Positioned(
@@ -36,10 +36,10 @@ class Uprimary_header extends StatelessWidget {
 
               //Circular Container
 
-              child: UContainer(
+              child: URoundedContainer(
                 height: USizes.homePrimaryHeaderHeight,
                 width: USizes.homePrimaryHeaderHeight,
-                backgroudColor: UColors.white.withValues(alpha: 0.1),
+                backgroundColor: UColors.white.withValues(alpha: 0.1),
               ),
             ),
             child

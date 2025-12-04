@@ -1,4 +1,3 @@
-import 'package:e_commerce/common/widgets/custom_shapes/Ucontainer.dart';
 import 'package:e_commerce/common/widgets/image_text/vertical_image_text.dart';
 import 'package:e_commerce/utils/constants/colors.dart';
 import 'package:e_commerce/utils/constants/images.dart';

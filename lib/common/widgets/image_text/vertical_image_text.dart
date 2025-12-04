@@ -1,4 +1,4 @@
-import 'package:e_commerce/common/widgets/custom_shapes/Ucontainer.dart';
+import 'package:e_commerce/common/widgets/custom_shapes/rounded_container.dart';
 import 'package:e_commerce/utils/constants/colors.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:e_commerce/utils/helpers/helper_functions.dart';
@@ -10,12 +10,12 @@ class UVerticalImageText extends StatelessWidget {
     required this.title,
     required this.image,
     required this.textcolor,
-    this.backbroundColor,
+    this.backgroundColor,
     required this.onTap,
   });
   final String title, image;
   final Color textcolor;
-  final Color? backbroundColor;
+  final Color? backgroundColor;
   final VoidCallback onTap;
 
   @override
@@ -26,11 +26,11 @@ class UVerticalImageText extends StatelessWidget {
       child: Column(
         children: [
           // Categories Section for Icons
-          UContainer(
+          URoundedContainer(
             height: 56,
             width: 56,
-            backgroudColor:
-                backbroundColor ?? (dark ? UColors.dark : UColors.white),
+            backgroundColor:
+                backgroundColor ?? (dark ? UColors.dark : UColors.white),
             padding: EdgeInsets.all(USizes.sm),
             child: Image(
               image: AssetImage(image),
