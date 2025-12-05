@@ -65,7 +65,7 @@ class HomeScreen extends StatelessWidget {
                 UImages.homeBanner2,
                 UImages.homeBanner3,
                 UImages.homeBanner4,
-                UImages.homeBanner5
+                UImages.homeBanner5,
               ]),
               SizedBox(
                 height: USizes.spaceBtwSections,

@@ -2,6 +2,8 @@ import 'package:e_commerce/common/styles/shadow.dart';
 import 'package:e_commerce/common/widgets/custom_shapes/rounded_container.dart';
 import 'package:e_commerce/common/widgets/icons/circular_icon.dart';
 import 'package:e_commerce/common/widgets/image/rounded_image.dart';
+import 'package:e_commerce/common/widgets/texts/brand_text_verifyicon.dart';
+import 'package:e_commerce/common/widgets/texts/brand_title_text.dart';
 import 'package:e_commerce/common/widgets/texts/product_price_text.dart';
 import 'package:e_commerce/common/widgets/texts/product_title_text.dart';
 import 'package:e_commerce/utils/constants/colors.dart';
@@ -89,23 +91,8 @@ class UproductCardVertical extends StatelessWidget {
                   SizedBox(height: USizes.spaceBtwItems / 2),
 
                   //prodcut brand
-                  Row(
-                    children: [
-                      Text(
-                        "Bata",
-                        style: Theme.of(context).textTheme.labelMedium,
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                      SizedBox(
-                        width: USizes.xs,
-                      ),
-                      Icon(
-                        Iconsax.verify5,
-                        color: UColors.primary,
-                        size: USizes.iconXs,
-                      ),
-                    ],
+                  UBrandTextwithVerifier(
+                    title: 'Bata ',
                   ),
                 ],
               ),

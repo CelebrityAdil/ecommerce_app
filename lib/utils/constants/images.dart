@@ -1,6 +1,5 @@
-class UImages{
+class UImages {
   UImages._();
-
 
   // onboarding animations
   static const String onboarding1Animation = 'assets/animations/welcome.json';
@@ -22,29 +21,52 @@ class UImages{
   static const String mailSentImage = 'assets/images/mail_illustration.png';
 
   // categories icons
-  static const String bagsIcon = 'assets/icons/categories/bag.png'; //------------
-  static const String bedIcon = 'assets/icons/categories/bed.png'; //------------
-  static const String clothesIcon = 'assets/icons/categories/clothes.png'; //------------
-  static const String cosmeticsIcon = 'assets/icons/categories/cosmetics.png'; //------------
-  static const String cricketIcon = 'assets/icons/categories/cricket.png'; //------------
-  static const String electronicsIcon = 'assets/icons/categories/electronics.png'; //------------
-  static const String faceIcon = 'assets/icons/categories/face.png'; //------------
-  static const String formalShoesIcon = 'assets/icons/categories/formal_shoes.png'; //------------
-  static const String furnitureIcon = 'assets/icons/categories/furniture.png'; //------------
-  static const String gadgetsIcon = 'assets/icons/categories/gadgets.png'; //------------
-  static const String hairOilIcon = 'assets/icons/categories/hair.png'; //------------
-  static const String jacketsIcon = 'assets/icons/categories/jackets.png'; //------------
-  static const String lampIcon = 'assets/icons/categories/lamp.png'; //------------
-  static const String laptopsIcon = 'assets/icons/categories/laptops.png'; //------------
-  static const String mobileIcon = 'assets/icons/categories/mobile.png'; //------------
-  static const String perfumeIcon = 'assets/icons/categories/perfume.png'; //------------
-  static const String shirtIcon = 'assets/icons/categories/shirt.png'; //------------
-  static const String shoesIcon = 'assets/icons/categories/shoes.png'; //------------
-  static const String shortsIcon = 'assets/icons/categories/shorts.png'; //------------
-  static const String soccerIcon = 'assets/icons/categories/soccer.png'; //------------
-  static const String sportsIcon = 'assets/icons/categories/sports.png'; //------------
-  static const String sportsShoesIcon = 'assets/icons/categories/sports_shoes.png'; //------------
-  static const String watchIcon = 'assets/icons/categories/watch.png'; //------------
+  static const String bagsIcon =
+      'assets/icons/categories/bag.png'; //------------
+  static const String bedIcon =
+      'assets/icons/categories/bed.png'; //------------
+  static const String clothesIcon =
+      'assets/icons/categories/clothes.png'; //------------
+  static const String cosmeticsIcon =
+      'assets/icons/categories/cosmetics.png'; //------------
+  static const String cricketIcon =
+      'assets/icons/categories/cricket.png'; //------------
+  static const String electronicsIcon =
+      'assets/icons/categories/electronics.png'; //------------
+  static const String faceIcon =
+      'assets/icons/categories/face.png'; //------------
+  static const String formalShoesIcon =
+      'assets/icons/categories/formal_shoes.png'; //------------
+  static const String furnitureIcon =
+      'assets/icons/categories/furniture.png'; //------------
+  static const String gadgetsIcon =
+      'assets/icons/categories/gadgets.png'; //------------
+  static const String hairOilIcon =
+      'assets/icons/categories/hair.png'; //------------
+  static const String jacketsIcon =
+      'assets/icons/categories/jackets.png'; //------------
+  static const String lampIcon =
+      'assets/icons/categories/lamp.png'; //------------
+  static const String laptopsIcon =
+      'assets/icons/categories/laptops.png'; //------------
+  static const String mobileIcon =
+      'assets/icons/categories/mobile.png'; //------------
+  static const String perfumeIcon =
+      'assets/icons/categories/perfume.png'; //------------
+  static const String shirtIcon =
+      'assets/icons/categories/shirt.png'; //------------
+  static const String shoesIcon =
+      'assets/icons/categories/shoes.png'; //------------
+  static const String shortsIcon =
+      'assets/icons/categories/shorts.png'; //------------
+  static const String soccerIcon =
+      'assets/icons/categories/soccer.png'; //------------
+  static const String sportsIcon =
+      'assets/icons/categories/sports.png'; //------------
+  static const String sportsShoesIcon =
+      'assets/icons/categories/sports_shoes.png'; //------------
+  static const String watchIcon =
+      'assets/icons/categories/watch.png'; //------------
 
   // Banners
   static const String homeBanner1 = 'assets/banners/banner_1.jpg';
@@ -52,7 +74,6 @@ class UImages{
   static const String homeBanner3 = 'assets/banners/banner_3.jpg';
   static const String homeBanner4 = 'assets/banners/banner_4.jpg';
   static const String homeBanner5 = 'assets/banners/banner_5.jpg';
-
 
   // -----[Products]-----
   // 1
@@ -80,9 +101,11 @@ class UImages{
   // 10
   static const String productImage10 = 'assets/products/product 10.png';
   // 11
-  static const String productImage11 = 'assets/products/product 11 bata socks.png';
+  static const String productImage11 =
+      'assets/products/product 11 bata socks.png';
   // 12
-  static const String productImage12 = 'assets/products/product 12 bata socks.png';
+  static const String productImage12 =
+      'assets/products/product 12 bata socks.png';
   // 13
   static const String productImage13 = 'assets/products/product 13.png';
   // 14
@@ -90,12 +113,16 @@ class UImages{
   // 15
   static const String productImage15 = 'assets/products/product 15.png';
   // 16
-  static const String productImage16a = 'assets/products/product 16 breakout jacket.png';
-  static const String productImage16b = 'assets/products/product 16 1 breakout jacket.png';
+  static const String productImage16a =
+      'assets/products/product 16 breakout jacket.png';
+  static const String productImage16b =
+      'assets/products/product 16 1 breakout jacket.png';
   // 17
-  static const String productImage17 = 'assets/products/product 17 breakout shirt.png';
+  static const String productImage17 =
+      'assets/products/product 17 breakout shirt.png';
   // 18
-  static const String productImage18 = 'assets/products/product 18 breakout wide shirt.png';
+  static const String productImage18 =
+      'assets/products/product 18 breakout wide shirt.png';
   // 19
   static const String productImage19a = 'assets/products/product 19.png';
   static const String productImage19b = 'assets/products/product 19 1.png';
@@ -135,7 +162,8 @@ class UImages{
   // 35
   static const String productImage35 = 'assets/products/product 35.png';
   // 36
-  static const String productImage36 = 'assets/products/product 36 j. sun cream.png';
+  static const String productImage36 =
+      'assets/products/product 36 j. sun cream.png';
   // 37
   static const String productImage37 = 'assets/products/product 37.png';
   // 38
@@ -179,9 +207,11 @@ class UImages{
   // 55
   static const String productImage55 = 'assets/products/product 55.png';
   // 56
-  static const String productImage56 = 'assets/products/product 56 breakout.png';
+  static const String productImage56 =
+      'assets/products/product 56 breakout.png';
   // 57
-  static const String productImage57 = 'assets/products/product 57 breakout.png';
+  static const String productImage57 =
+      'assets/products/product 57 breakout.png';
   // 58
   static const String productImage58 = 'assets/products/product 58.png';
   // 59
@@ -225,13 +255,15 @@ class UImages{
   // Payment Methods
   static const String applePay = "assets/icons/payment_methods/apple-pay.png";
   static const String googlePay = "assets/icons/payment_methods/google-pay.png";
-  static const String creditCard = "assets/icons/payment_methods/credit-card.png";
-  static const String masterCard = "assets/icons/payment_methods/master-card.png";
+  static const String creditCard =
+      "assets/icons/payment_methods/credit-card.png";
+  static const String masterCard =
+      "assets/icons/payment_methods/master-card.png";
   static const String paypal = "assets/icons/payment_methods/paypal.png";
   static const String visa = "assets/icons/payment_methods/visa.png";
   static const String paystack = "assets/icons/payment_methods/paystack.png";
   static const String paytm = "assets/icons/payment_methods/paytm.png";
-  static const String successfulPaymentIcon = "assets/icons/payment_methods/successful_payment_icon.png";
+  static const String successfulPaymentIcon =
+      "assets/icons/payment_methods/successful_payment_icon.png";
   static const String codIcon = "assets/icons/payment_methods/cod.png";
-
 }
