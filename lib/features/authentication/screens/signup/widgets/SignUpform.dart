@@ -1,6 +1,5 @@
 import 'package:e_commerce/common/widgets/button/elevatedbutton.dart';
 import 'package:e_commerce/features/authentication/screens/signup/widgets/privacy_policy.dart';
-import 'package:e_commerce/utils/constants/colors.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:e_commerce/utils/constants/texts.dart';
 import 'package:flutter/material.dart';

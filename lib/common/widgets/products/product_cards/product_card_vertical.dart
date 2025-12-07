@@ -3,7 +3,6 @@ import 'package:e_commerce/common/widgets/custom_shapes/rounded_container.dart';
 import 'package:e_commerce/common/widgets/icons/circular_icon.dart';
 import 'package:e_commerce/common/widgets/image/rounded_image.dart';
 import 'package:e_commerce/common/widgets/texts/brand_text_verifyicon.dart';
-import 'package:e_commerce/common/widgets/texts/brand_title_text.dart';
 import 'package:e_commerce/common/widgets/texts/product_price_text.dart';
 import 'package:e_commerce/common/widgets/texts/product_title_text.dart';
 import 'package:e_commerce/utils/constants/colors.dart';

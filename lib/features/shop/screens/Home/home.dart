@@ -10,7 +10,6 @@ import 'package:e_commerce/features/shop/screens/Home/widgets/promo_slider.dart'
 import 'package:e_commerce/utils/constants/images.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:get/get.dart';
 
 class HomeScreen extends StatelessWidget {

@@ -6,7 +6,6 @@ import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:e_commerce/utils/constants/texts.dart';
 import 'package:e_commerce/utils/helpers/device_helpers.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
