@@ -1,3 +1,4 @@
+import 'package:e_commerce/bindings/bindings.dart';
 import 'package:e_commerce/features/authentication/screens/onboarding/onboarding.dart';
 import 'package:e_commerce/utils/themes/theme.dart';
 import 'package:flutter/material.dart';
@@ -13,6 +14,7 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: UAppTheme.lightTheme,
       darkTheme: UAppTheme.darkTheme,
+      initialBinding: Ubindings(),
       home: Onboarding(),
     );
   }

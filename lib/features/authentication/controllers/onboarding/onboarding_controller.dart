@@ -3,9 +3,11 @@ import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_state_manager/src/simple/get_controllers.dart';
+import 'package:get_storage/get_storage.dart';
 
 class OnboardingController extends GetxController {
   static OnboardingController get instance => Get.find();
+  final storage = GetStorage();
 
   final pageController = PageController();
   RxInt currentIndex = 0.obs;
@@ -20,6 +22,7 @@ class OnboardingController extends GetxController {
 
   void Nextpage() {
     if (currentIndex.value == 2) {
+      storage.write('isFirstTime', false);
       Get.offAll(() => LoginScreen());
       return;
     }
